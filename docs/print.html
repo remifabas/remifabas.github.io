@@ -85,7 +85,7 @@
 
         <nav id="sidebar" class="sidebar" aria-label="Table of contents">
             <div class="sidebar-scrollbox">
-                <ol class="chapter"><li class="chapter-item affix "><a href="about/me.html">About me</a></li><li class="chapter-item "><a href="guide/reading.html"><strong aria-hidden="true">1.</strong> Reading Books</a></li></ol>
+                <ol class="chapter"><li class="chapter-item affix "><a href="about/me.html">About me</a></li><li class="chapter-item affix "><li class="part-title">Experiences</li><li class="chapter-item "><a href="experiences/easymile.html"><strong aria-hidden="true">1.</strong> Easymile</a></li><li class="chapter-item "><a href="experiences/settis.html"><strong aria-hidden="true">2.</strong> Settis</a></li><li class="chapter-item affix "><li class="part-title">Formation</li><li class="chapter-item "><a href="formations/ups.html"><strong aria-hidden="true">3.</strong> Universitée Paul Sabatier</a></li></ol>
             </div>
             <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
         </nav>
@@ -157,7 +157,63 @@
 <ul>
 <li><a href="https://remifabas.github.io/thoughts/introduction/introduction.html">documentation</a></li>
 </ul>
-<div style="break-before: page; page-break-before: always;"></div><h1 id="reading-books"><a class="header" href="#reading-books">Reading Books</a></h1>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="easymile"><a class="header" href="#easymile"><strong>Easymile</strong></a></h1>
+<p>December 2022 - Today</p>
+<h2 id="devops---sre"><a class="header" href="#devops---sre"><em>DevOps - SRE</em></a></h2>
+<details id="admonition-more-info-about-easymile" class="admonition tip">
+<summary class="admonition-title">
+<p>More info about Easymile</p>
+<p><a class="admonition-anchor-link" href="experiences/easymile.html#admonition-more-info-about-easymile"></a></p>
+</summary>
+<div>
+<p>EasyMile is a leader in software and complete solutions for driverless goods and passenger transport, and the number one provider of autonomous shuttles in the world. It partners with blue-chip manufacturers to autonomize their vehicles with award-winning technology built on safety-by-design, ready for deployment today, with clear client benefits.</p>
+<p>Since 2014, the company has become known for quality delivery and real-world deployments. EasyMile’s proven technology has driven autonomously in 300+ locations in more than 30 countries, over 1, 000,000km.</p>
+<p>With several mass operations around the world EasyMile was the first to deploy fully driverless at Level 4 of autonomous driving and has the highest number of remotely supervised operations (10+) on the market to date. It is also the first autonomous vehicle solutions provider to be ISO 9001:2015 certified.</p>
+<p>EasyMile has more than 270 employees in four locations (Toulouse, Berlin, Denver and Singapore), doubling its headcount every 2 years.</p>
+</div>
+</details>
+<details id="admonition-main-objectives--responsabilities-for-this-position" class="admonition note">
+<summary class="admonition-title">
+<p>Main objectives / responsabilities for this position</p>
+<p><a class="admonition-anchor-link" href="experiences/easymile.html#admonition-main-objectives--responsabilities-for-this-position"></a></p>
+</summary>
+<div>
+<ul>
+<li>Manage of all infrastructure with modern tools and practices (Infrastructure as Code, Cloud Architecture, Continuous Delivery) both on premise and in the cloud.</li>
+<li>Monitor the infrastructure that should remains highly available and optimal.</li>
+<li>Alert on infrastructure issues.</li>
+<li>Keep infrastructure up to date, with rolling updates and possibility to rollback.</li>
+<li>Provide a clear visibility on cloud costs.</li>
+<li>Cybersecurity, our infrastructure must remain airtight.</li>
+<li>Agility, be always looking for productivity gains for software development and shortening cycle times</li>
+<li>Repeatability, being able to reproduce any version of the infrastructure.</li>
+<li>Consistency, provide stable and consistent environments for development, and for all the steps between compilation and production,</li>
+<li>Convey these ideas to the rest of the broader team</li>
+</ul>
+</div>
+</details>
+<details id="admonition-what-about-tech-" class="admonition success">
+<summary class="admonition-title">
+<p>What about tech ?</p>
+<p><a class="admonition-anchor-link" href="experiences/easymile.html#admonition-what-about-tech-"></a></p>
+</summary>
+<div>
+<ul>
+<li><span style="color: hotpink">Ansible</span> and infrastructure as code with <span style="color: hotpink">Terraform</span></li>
+<li>Managing <span style="color: hotpink">Kubernetes clusters in production</span>.</li>
+<li>Medium to large, highly available, business critical systems in the AWS Cloud</li>
+<li>Dev:  multiples <span style="color: hotpink">Go micro-services</span></li>
+<li>Good understanding of the TCP, HTTP protocol.</li>
+<li>Databases Postgres</li>
+<li>Global Private Networks, IPsec VPN and BGP (Aviatrix)</li>
+<li>Messages brokers (RabbitMQ)</li>
+<li>Developing <span style="color: hotpink">Kubernetes operators</span>. (Golang)</li>
+</ul>
+</div>
+</details>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="settis"><a class="header" href="#settis">Settis</a></h1>
+<p>Multiples mission:</p>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="universitée-paul-sabatier"><a class="header" href="#universitée-paul-sabatier">Universitée Paul Sabatier</a></h1>
 
                     </main>
 
@@ -176,22 +232,6 @@
 
         </div>
 
-        <!-- Livereload script (if served using the cli tool) -->
-        <script type="text/javascript">
-            const wsProtocol = location.protocol === 'https:' ? 'wss:' : 'ws:';
-            const wsAddress = wsProtocol + "//" + location.host + "/" + "__livereload";
-            const socket = new WebSocket(wsAddress);
-            socket.onmessage = function (event) {
-                if (event.data === "reload") {
-                    socket.close();
-                    location.reload();
-                }
-            };
-
-            window.onbeforeunload = function() {
-                socket.close();
-            }
-        </script>
 
 
 

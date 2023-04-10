@@ -2,4 +2,11 @@
 
 [About me](about/me.md)
 
-- [Reading Books](guide/reading.md)
+# Experiences
+
+- [Easymile](experiences/easymile.md)
+- [Settis](experiences/settis.md)
+
+# Formation
+
+- [Universitée Paul Sabatier](formations/ups.md)
