@@ -1,3 +1,3 @@
 # About me
 
-- [documentation](https://remifabas.github.io/thoughts/introduction/introduction.html)
+- [My funny experiences](https://remifabas.github.io/thoughts/introduction/introduction.html)
